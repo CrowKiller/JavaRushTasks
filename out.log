@@ -12514,29 +12514,3 @@ java.lang.annotation.IncompleteAnnotationException: org.intellij.lang.annotation
 2019-07-17 10:30:46 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
 2019-07-17 10:30:46 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
 2019-07-17 10:30:46 INFO  ApacheHttpClient.sendEvent(518) - responseCode = 200
-2019-07-17 10:35:39 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
-2019-07-17 10:35:39 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.31 ----------
-
-2019-07-17 10:35:39 INFO  ApacheHttpClient.createAsyncHttpClient(135) - 1 proxies selected. Type: DIRECT
-2019-07-17 10:35:39 INFO  ApacheHttpClient.<init>(93) - ApacheHttpClient was successfully instantiated.
-2019-07-17 10:35:40 INFO  ApacheHttpClient.testConnection(193) - responseCode = 200
-2019-07-17 10:35:40 INFO  ApacheHttpClient.testConnection(208) - result = true
-2019-07-17 10:35:40 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(585) - Waiting for server response.
-2019-07-17 10:35:40 INFO  ApacheHttpClient.refreshUserInfo(293) - responseCode = 200
-2019-07-17 10:35:40 INFO  ApacheHttpClient.refreshUserInfo(299) - User information received.
-2019-07-17 10:35:40 INFO  ApacheHttpClient.startGA(35) - GAService started.
-2019-07-17 10:35:40 WARN  PluginUtil.isProjectStructureCorrect(344) - The project structure is invalid.
-2019-07-17 10:42:50 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
-
-2019-07-17 10:46:37 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
-2019-07-17 10:46:37 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.31 ----------
-
-2019-07-17 10:46:37 INFO  ApacheHttpClient.createAsyncHttpClient(135) - 1 proxies selected. Type: DIRECT
-2019-07-17 10:46:37 INFO  ApacheHttpClient.<init>(93) - ApacheHttpClient was successfully instantiated.
-2019-07-17 10:46:38 INFO  ApacheHttpClient.testConnection(193) - responseCode = 200
-2019-07-17 10:46:38 INFO  ApacheHttpClient.testConnection(208) - result = true
-2019-07-17 10:46:38 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(585) - Waiting for server response.
-2019-07-17 10:46:38 INFO  ApacheHttpClient.refreshUserInfo(293) - responseCode = 200
-2019-07-17 10:46:38 INFO  ApacheHttpClient.refreshUserInfo(299) - User information received.
-2019-07-17 10:46:38 INFO  ApacheHttpClient.startGA(35) - GAService started.
-2019-07-17 10:46:38 WARN  PluginUtil.isProjectStructureCorrect(344) - The project structure is invalid.
