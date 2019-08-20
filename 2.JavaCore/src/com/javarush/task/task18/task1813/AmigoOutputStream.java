@@ -21,7 +21,32 @@ public class AmigoOutputStream extends FileOutputStream{
         source = this;
     }
 
+    @Override
+    public void flush() throws IOException {
+        source.flush();
+    }
 
+    @Override
+    public void write(int b) throws IOException {
+        source.write(b);
+    }
+
+    @Override
+    public void write(byte[] b, int off, int len) throws IOException {
+        source.write(b, off, len);
+    }
+
+    @Override
+    public void write(byte[] b) throws IOException {
+        source.write(b);
+    }
+
+    @Override
+    public void close() throws IOException {
+        flush();
+        write("JavaRush © All rights reserved.".getBytes());
+        source.close();
+    }
 
     public static void main(String[] args) throws FileNotFoundException {
         new AmigoOutputStream(new FileOutputStream(fileName));
